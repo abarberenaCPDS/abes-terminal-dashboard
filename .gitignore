@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# logs & env
+*.log
+.env
+.env.*
+
+# editors / OS
+.vscode/
+.idea/
+*.swp
+
+# node (unused here, but harmless)
+node_modules/

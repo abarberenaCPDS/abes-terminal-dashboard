@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>~/portfolio — terminal</title>
+  <meta name="description" content="Terminal portfolio & command center">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-accent="green">
+  <div id="app">
+
+    <!-- ============ TERMINAL VIEW ============ -->
+    <section id="terminal">asd
+      <div id="term-bar">
+        <span class="dots"><i></i><i></i><i></i></span>
+        <span class="term-title">~/portfolio — zsh — 80×24</span>
+        <span class="term-tip">type <kbd>help</kbd> to begin</span>
+      </div>
+      <div id="term-screen" role="log" aria-live="polite"></div>
+      <div id="term-input">
+        <span id="term-prompt"></span>
+        <input id="term-field" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="terminal input">
+      </div>
+    </section>
+
+    <!-- ============ COMMAND CENTER VIEW ============ -->
+    <section id="dashboard" hidden>
+      <header id="dash-header">
+        <button id="dash-back" class="btn" type="button">⬅ back to terminal</button>
+        <span id="dash-title">command center</span>
+        <span id="dash-clock"></span>
+      </header>
+      <main id="dash-grid">
+        <article class="card" id="card-weather">
+          <h2>☀ Weather</h2>
+          <div class="card-body" id="weather-body"><span class="dim">loading…</span></div>
+        </article>
+        <article class="card" id="card-github">
+          <h2>🐙 GitHub activity</h2>
+          <div class="card-body" id="github-body"><span class="dim">loading…</span></div>
+        </article>
+        <article class="card" id="card-news">
+          <h2>🔥 Hacker News</h2>
+          <div class="card-body" id="news-body"><span class="dim">loading…</span></div>
+        </article>
+        <article class="card" id="card-links">
+          <h2>🔗 Links</h2>
+          <div class="card-body" id="links-body"><span class="dim">loading…</span></div>
+        </article>
+      </main>
+      <footer id="dash-foot"><span class="dim">all data fetched client-side from free public APIs — no backend, no keys</span></footer>
+    </section>
+
+  </div>
+
+  <script src="config.js"></script>
+  <script src="dashboard.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
