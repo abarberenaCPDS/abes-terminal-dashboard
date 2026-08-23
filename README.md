@@ -1,4 +1,4 @@
-# ⌨️ terminal-dashboard
+# ⌨️ abes-terminal-dashboard
 
 A **terminal portfolio + command center** in one static page — no build step,
 no backend, no API keys. Hosted free on DigitalOcean App Platform.

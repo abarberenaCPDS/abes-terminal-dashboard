@@ -1,4 +1,4 @@
-# terminal-dashboard — Agent Notes
+# abes-terminal-dashboard — Agent Notes
 
 ## Project Type
 Static single-page site (HTML/CSS/JS). No build step, no package manager, no backend.

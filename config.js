@@ -13,7 +13,7 @@ window.SITE_CONFIG = {
   // --- Projects (shown by `projects`) ---
   // [name, description, url]
   projects: [
-    ["terminal-dashboard", "This very site — a terminal portfolio + command center", "https://github.com/abarberenaCPDS/terminal-dashboard"],
+    ["abes-terminal-dashboard", "This very site — a terminal portfolio + command center", "https://github.com/abarberenaCPDS/abes-terminal-dashboard"],
     // add more: ["project-name", "what it does", "https://github.com/abarberenaCPDS/project-name"],
   ],
 
