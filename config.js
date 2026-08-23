@@ -6,7 +6,7 @@ window.SITE_CONFIG = {
   // --- Identity (shown in terminal: about / whoami / banner) ---
   name: "Abe",
   role: "Software Architect",
-  tagline: "Building things that live on the internet.",
+  tagline: "is building things that live on the internet.",
   location: "Orange County, CA, USA",
   email: "",   // add yours to show it in `about`
 

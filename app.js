@@ -304,7 +304,7 @@
     promptEl.textContent = PROMPT();
     print(BANNER, "art");
     print(`<span class="dim">${CREDO}</span>`);
-    print(`<span class="dim">Welcome! ${esc(cfg.name)} is ${esc(cfg.tagline)}</span>`);
+    print(`<span class="dim">Welcome! ${esc(cfg.name)} ${esc(cfg.tagline)}</span>`);
     print(`<span class="dim">type <span class="k">help</span> for commands · <span class="k">dashboard</span> for the command center · <span class="k">theme</span> to recolor</span>`);
     print("</br>");
   
