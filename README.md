@@ -17,7 +17,7 @@ no backend, no API keys. Hosted free on DigitalOcean App Platform.
   diabolicum…"* and a random commit message from [whatthecommit.com](https://whatthecommit.com),
   in a color rolled fresh from the terminal palette.
 
-## Files
+## 📁 Files
 
 | File            | What it does                                   |
 | --------------- | ---------------------------------------------- |
@@ -27,19 +27,19 @@ no backend, no API keys. Hosted free on DigitalOcean App Platform.
 | `dashboard.js`  | Dashboard data (free public APIs, client-side) |
 | `config.js`     | **Your info — the only file you edit**         |
 
-## Customize
+## ⚙️ Customize
 
 Edit `config.js`: name, role, tagline, projects, links, GitHub username,
 weather coordinates. Everything else adapts automatically.
 
-## Run locally
+## 🚀 Run locally
 
 ```bash
 python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
-## Deploy to DigitalOcean App Platform (free)
+## ☁️ Deploy to DigitalOcean App Platform (free)
 
 1. In the DO console → **Apps** → **Create App** → connect GitHub → pick this repo.
 2. Keep **Static Site**, leave **Build Command** empty,
@@ -47,7 +47,7 @@ python3 -m http.server 8000
 3. Create the app. Deploy takes ~1–2 min. You get `https://<app>.ondigitalocean.app`.
 4. Optional: add a custom domain under **Settings → Domains** (free SSL).
 
-## Notes
+## 📝 Notes
 
 - Free tier: up to 3 apps, **1 GiB outbound data/app/month** — this site is
   tiny (few KB), so that's plenty. The dashboard's API calls happen in the
